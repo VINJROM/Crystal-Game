@@ -1,0 +1,96 @@
+body {
+    background-image: url(../images/water.jpg);
+}
+
+#header {
+    background-color: aquamarine;
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#main-body {
+    background-color: aqua;
+    width: 40%;
+    margin: 5px;
+    border: 30px;
+    padding: 10px;
+}
+
+#content {
+    display: flex;
+}
+
+#targetBox {
+    display: block;
+    background-color: orange;
+    font-size: 20px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#targetNumber {
+    /* flex: 25%; */
+    display: block;
+    background-color: orange;
+    font-size: 50px;
+    width: 90px;
+    height: 60px;
+    margin: 5px;
+    border: 30px;
+    padding: 10px;
+}
+
+#userBox {
+    display: block;
+    background-color: orange;
+    font-size: 20px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#userNumber {
+    /* flex: 25%; */
+    display: block;
+    background-color: orange;
+    font-size: 50px;
+    width: 90px;
+    height: 60px;
+    margin: 5px;
+    border: 30px;
+    padding: 10px;
+}
+
+#scoreBox {
+    /* flex: 25%; */
+    display: block;
+    background-color: orange;
+    font-size: 20px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+}
+
+div img {
+    display: inline-block;
+}
+
+
+/* Row of images */
+
+#crystalsDisplay {
+    display: flex;
+    text-align: center;
+}
+
+
+/* Column of images */
+
+.crystal-button {
+    flex: 25%;
+    padding: 5px;
+}
