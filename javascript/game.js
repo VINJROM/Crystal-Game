@@ -80,7 +80,6 @@ $(document).ready(function() {
             alert("You Lose!");
             $('#losses').html(losses);
             resetValues();
-
         }
     }
 });
