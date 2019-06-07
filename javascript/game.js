@@ -14,8 +14,8 @@ $(document).ready(function() {
 
     // Records target number.
     var targetCount;
-
-    // Function generates random target and crystal values.
+    console.log()
+        // Function generates random target and crystal values.
     function resetValues() {
 
         // Sets userCount value to 0.
